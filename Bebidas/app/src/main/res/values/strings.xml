@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bebidas</string>
+    <string name="data_will_arrive">La bebidas aparecerán tan pronto obtengamos respuesta.</string>
+    <string name="error">Error</string>
+    <string name="hello">Hola</string>
+    <string name="initial_load_done">Conocemos muchas recetas increíbles para probar</string>
+    <string name="initial_load_in_progress">Favor de esperar mientras recuperamos los datos.</string>
+    <string name="initial_load_notifchannel_description">Bienvenido</string>
+    <string name="initial_load_notifchannel_name">Carga Inicial</string>
+    <string name="nothing_found">Lo sentimos, no pudimos encontrarlo.</string>
+    <string name="ok">OK</string>
+    <string name="recipe_ingreds_head">Ingredientes:</string>
+    <string name="recipe_unknown">Desconocido.</string>
+    <string name="search_drinks">Buscar bebidas:</string>
+    <string name="sync_failed">Ocurrio un error al actualizar los datos.</string>
+    <string name="sync_succeeded">Lista actualizada.</string>
+    <string name="type_drink_name">Escriba el nombre de la bebida.</string>
+</resources>

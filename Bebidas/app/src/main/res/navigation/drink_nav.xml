@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cocktail_nav"
+        app:startDestination="@id/fragmDrinks" >
+
+    <fragment
+            android:id="@+id/fragmDrinks"
+            android:name="mx.com.example.bebidas.ui.drinks.DrinksFragment" >
+
+        <action
+                android:id="@+id/actViewDrinkRecipe"
+                app:destination="@id/fragmRecipe" />
+
+        <action
+                android:id="@+id/actSearchDrinks"
+                app:destination="@id/dialogSearchDrinks" />
+
+    </fragment>
+
+    <dialog
+            android:id="@+id/dialogSearchDrinks"
+            android:name="mx.com.example.bebidas.ui.drinks.DrinksSearchDialog" />
+
+    <fragment
+            android:id="@+id/fragmRecipe"
+            android:name="mx.com.example.bebidas.ui.recipes.RecipeFragment" />
+
+</navigation>
